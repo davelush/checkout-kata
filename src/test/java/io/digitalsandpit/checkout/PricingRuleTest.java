@@ -18,9 +18,4 @@ public class PricingRuleTest {
         PricingRule rule = new PricingRule(new Item("A", 47), null);
         assertFalse(rule.hasOffer());
     }
-
-    @Test
-    public void travisNudgeTest() {
-
-    }
 }

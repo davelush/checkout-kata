@@ -39,4 +39,5 @@ Here are a list of improvements that could be made to the implementation
  - Redesign the Checkout class to lookup an Item, add it to a List and calculate a running total based on PricingRules. This will give us the basis of an actual receipt. More future proof design as the requirements expand
  - Extract a Checkout.offersCheck() method that can be re-used when you scan an item, remove an item, change the pricing rules etc
  - In the Checkout constructor the check for a key matching Item.getSku() is clunky. One solution would be to encapsulate in a PricingRules class or look at using something else instead of a Map to hold the pricing rules.
+ - Should have had a good commit history to tell the story of TDD & refactor but I made a mistake. Probably one for conversation
   
